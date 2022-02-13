@@ -1,6 +1,6 @@
 # Sorting Visualizer
 
-This program creates random array with numbers in range of 100 and demonstrates some sorting algorithm with live graphs.
+This program creates random array with numbers in range of 100 and demonstrates some sorting algorithms with live graphs.
 
 How to use:
 
