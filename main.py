@@ -187,14 +187,14 @@ def selectionSort():
     for i in range(len(arr)):
         plt.bar(x, arr)
         charts(arr)
-        plt.title("Quick Sort, Complexity - O(n^2)", size=10)
+        plt.title("Selection Sort, Complexity - O(n^2)", size=10)
         plt.pause(0.001)
         plt.clf()
         min_idx = i
         for j in range(i + 1, len(arr)):
             plt.bar(x, arr)
             charts(arr)
-            plt.title("Quick Sort, Complexity - O(n^2)", size=10)
+            plt.title("Selection Sort, Complexity - O(n^2)", size=10)
             plt.pause(0.0001)
             plt.clf()
             if arr[min_idx] > arr[j]:
@@ -203,7 +203,7 @@ def selectionSort():
         arr[i], arr[min_idx] = arr[min_idx], arr[i]
     plt.bar(list(range(amount)), arr)
     charts(arr)
-    plt.title("Quick Sort, Complexity - O(n^2)", size=10)
+    plt.title("Selection Sort, Complexity - O(n^2)", size=10)
     plt.show()
 
 
